@@ -1,6 +1,6 @@
 # Statistical-Computing
 
-📌 HW2 [以python進行]
+📌 HW2 [以 python 進行]
 
 <img width="150" height="200" alt="螢幕擷取畫面 2025-07-28 161204" src="https://github.com/user-attachments/assets/882bd6e8-c948-45e8-a38e-fa46b9c78ff3" />
 
@@ -13,7 +13,7 @@
 
 經由執行程式碼後，可以知道銅板是否公正以及得到銅板在執行過程的所有結果
 
-📌 HW3
+📌 HW3 [以 python 進行]
 
 與 HW2 相同，一樣為檢驗銅板是否公正、使用兩個不同情形 (假設為 Uniform 與 Normal)
 
@@ -25,7 +25,7 @@ step3. 以大小順序排序在 Bootstrap 方法得到的估計值，接著以 S
        透過t-test檢驗與真值是否相同。
 
 
-📌 HW4
+📌 HW4 [以 python 進行]
 
 進行 gibb sampling 並比較與真實posteriot下之 數值、 圖形 、 CI 差異
 
@@ -42,11 +42,22 @@ gibb sampling 設定兩種不同執行次數：
 (方法一) 執行次數與paper(In paper, Explaining the Gibbs Sampler George Casella; Edward I. George The American Statistician, Vol. 46, No. 3. (Aug., 1992), pp. 167-174.)相同，設置為500次
 
 
-📌 HW5
-
-
-
-
-
-
 (方法二) 執行次數設置到收斂為止
+
+📌 HW5 [以 Matlab 進行]
+
+時間序列 AR(1) 的相關矩陣之反方陣
+
+首先推論其一般式，接著代入很小的數並計算反方陣是否存在，其中計算反方陣方法有內建函數inv 以及不使用套件，做出LU、 Cholesky、 QR by means of Gram-Schmidt、 QR by means of  Householder reflections、 SVD分解後的反方陣 
+
+
+📌 HW6 [以 python 進行]
+
+EM 演算法實作
+MLE 經典例子：
+  - 🎲 German Tank Problem：估計離散均勻分佈上限 n
+  - 🪙 Biased Coin（有限參數空間）
+  - 🪙 Biased Coin（連續參數空間）
+  - 📈 常態分佈：估計 μ 與 σ
+
+Root-finding 方法比較與可視化
