@@ -1,6 +1,6 @@
 # Statistical-Computing
 
-📌 HW2
+📌 HW2 [以python進行]
 
 <img width="150" height="200" alt="螢幕擷取畫面 2025-07-28 161204" src="https://github.com/user-attachments/assets/882bd6e8-c948-45e8-a38e-fa46b9c78ff3" />
 
@@ -40,5 +40,13 @@ step3. 以大小順序排序在 Bootstrap 方法得到的估計值，接著以 S
 gibb sampling 設定兩種不同執行次數：
 
 (方法一) 執行次數與paper(In paper, Explaining the Gibbs Sampler George Casella; Edward I. George The American Statistician, Vol. 46, No. 3. (Aug., 1992), pp. 167-174.)相同，設置為500次
+
+
+📌 HW5
+
+
+
+
+
 
 (方法二) 執行次數設置到收斂為止
